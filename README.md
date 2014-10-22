@@ -14,11 +14,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 run_analysis.R performs the following steps:
 
 1. Prior to running the script we need to ensure we extract the contents of the zip file in the R working directory. The working directory must contain the following:
-  *activity_labels.txt
-  *features_info.txt
-  *features.txt
-  *test directory (containing subject_test.txt, X_test.txt, y_test.txt)
-  *train directory (containing subject_train.txt, X_train.txt, y_train.txt)
+  -activity_labels.txt
+  -features_info.txt
+  -features.txt
+  -test directory (containing subject_test.txt, X_test.txt, y_test.txt)
+  -train directory (containing subject_train.txt, X_train.txt, y_train.txt)
 
 2. Reads the various text files and creates features, activity_lables, test and train objects. Th test and train objects are merged to form a bigger data table merged_data. The column names are renamed - Please refer to CODEBOOK.md for more information
 
