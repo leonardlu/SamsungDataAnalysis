@@ -1,21 +1,21 @@
 CodeBook
 ===========
 
-run_analysis.R produces a tidy data set consisting of the 81 columns below:
+run_analysis.R produces a tidy data set consisting of the 88 columns below:
 
 1. `subject`: identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
 
 2. `activity`: factor variable representing activity that subject is carrying out. LEVELS = WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
 
-The remaining 79 columns represent the means and standard deviation of the features measured, each obtained by calculating variables from the time and frequency domain that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
+The remaining 86 columns represent the means and standard deviation of the features measured, each obtained by calculating variables from the time and frequency domain that come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
- 3. Time.BodyAcceleration.mean().X                       
- 4. Time.BodyAcceleration.mean().Y                       
- 5. Time.BodyAcceleration.mean().Z                       
- 6. Time.GravityAcceleration.mean().X                    
- 7. Time.GravityAcceleration.mean().Y                    
- 8. Time.GravityAcceleration.mean().Z                    
- 9. Time.BodyAccelerationJerk.mean().X                   
+3. Time.BodyAcceleration.mean().X                       
+4. Time.BodyAcceleration.mean().Y                       
+5. Time.BodyAcceleration.mean().Z                       
+6. Time.GravityAcceleration.mean().X                    
+7. Time.GravityAcceleration.mean().Y                    
+8. Time.GravityAcceleration.mean().Z                    
+9. Time.BodyAccelerationJerk.mean().X                   
 10. Time.BodyAccelerationJerk.mean().Y                   
 11. Time.BodyAccelerationJerk.mean().Z                   
 12. Time.BodyGyro.mean().X                               
